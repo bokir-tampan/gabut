@@ -1,9 +1,9 @@
 xray
 
-vmess ws tls + none + grpc
-vless ws tls + none +grpc
-trojan ws tls + grpc
-shadowsocks ws + grpc
+vmess ws tls + none + grpc,
+vless ws tls + none +grpc,
+trojan ws tls + grpc,
+shadowsocks ws + grpc,
 
 run on port 443/80
 
