@@ -16,7 +16,7 @@ sed -i '/#trojanws$/a\### '"$user $exp"'\
 },{"password": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
 systemctl restart xray
 trojanlink="trojan://${uuid}@${domain}:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#${user}"
-trojanlink="trojan://${uuid}@${domain}:443?path=%2Ftrojan-ws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
+trojanlink1="trojan://${uuid}@${domain}:443?path=%2Ftrojan-ws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
 clear
 echo -e ""
 echo -e "==========-TROJAN=========="
@@ -28,6 +28,6 @@ echo -e "Path           : trojan-grpc"
 echo -e "================================="
 echo -e "GRPC           : ${trojanlink}"
 echo -e "================================="
-echo -e "WS         " ${trojanlink1}"
+echo -e "WS             : ${trojanlink1}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
