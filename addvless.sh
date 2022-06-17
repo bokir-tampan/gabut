@@ -1,3 +1,5 @@
+#!/bin/bash
+clear
 domain=$(cat /root/domain)
 read -rp "User: " -e user
 egrep -w "^### $user" /usr/local/etc/xray/config.json >/dev/null
