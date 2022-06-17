@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[40;1;37m|              • XRAY  MENU •               |\E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[0;34m Addws                >   Add User Vmess \033[0m"
+echo -e "\033[0;34m Addvless             >   Add User Vless \033[0m"
+echo -e "\033[0;34m Addss                >   Add User Sodosok ws/grpc  \033[0m"
+echo -e "\033[0;34m Addtr                >   Add User Vmess \033[0m"
+echo -e "\033[0;34m cek-user             >   Cek All User  \033[0m"
+echo -e "\033[0;34m Renew                >   Renew All User \033[0m"
+echo -e "\033[0;34m Del-user             >   Delete All  User  \033[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[0;34m               Type All Command \033[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
