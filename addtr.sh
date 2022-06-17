@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 domain=$(cat /root/domain)
 read -rp "User: " -e user
 egrep -w "^### $user" /usr/local/etc/xray/config.json >/dev/null
@@ -19,7 +19,7 @@ trojanlink="trojan://${uuid}@${domain}:443?mode=gun&security=tls&type=grpc&servi
 trojanlink1="trojan://${uuid}@${domain}:443?path=%2Ftrojan-ws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
 clear
 echo -e ""
-echo -e "==========-TROJAN=========="
+echo -e "=============-TROJAN-============"
 echo -e "Remarks        : ${user}"
 echo -e "Host/IP        : ${domain}"
 echo -e "port           : 443"
