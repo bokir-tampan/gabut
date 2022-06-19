@@ -33,7 +33,7 @@ echo > /dev/null
 else
 jum2=$(cat /tmp/ipxray.txt | nl)
 lastlogin=$(cat /var/log/xray/access.log | grep -w "$akun" | tail -n 500 | cut -d " " -f 2 | tail -1)
-echo -e "user :${green} ${akun} ";
+echo -e "user :${green} ${akun} ${NC}";
 echo -e "$jum2";
 echo "----------------------------------------------"
 fi
